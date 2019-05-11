@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #1345ef;
+}
+a:hover,a:focus{
+    color: #0c2d99;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 24px;
+}
+ul{
+    list-style: disc;
+    margin-inline-end: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+label {
+    display: block;
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 20px;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+textarea{
+    width: 100%;
+    min-height: 120px;
+    margin-bottom: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 60px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    resize: none;
+}
+input.form-control {
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    background: transparent;
+    color: #ffffff;
+}
+textarea.form-control{
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    background-color: transparent;
+    color: #ffffff;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #1345ef;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px #000000;
+    transition: all 0.3s ease-out;
+}
+.btn:hover,.btn:focus {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #0c2d99;
+    box-shadow: none;
+}
+.hero-section {
+    min-height: 400px;
+    padding: 100px 0;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section .hero-content h1 {
+    font-size: 52px;
+    line-height: 1;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.hero-section .hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: right;
+}
+.hero-section label{
+    color: #ffffff;
+}
