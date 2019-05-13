@@ -169,6 +169,19 @@
                         </div>
                 </div>
         </section>
+
+        <section class="margin-top-20 about-us">
+                <div class="container-fluid">
+                        <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm12">
+                                        <img src="" alt="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm12">
+
+                                </div>
+                        </div>
+                </div>
+        </section>
         
         <?php the_content(); ?>
 <?php

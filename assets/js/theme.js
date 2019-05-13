@@ -20,5 +20,6 @@ jQuery(document).ready(function () {
         nextArrow: '<button class="slick-next" aria-label="Next" type="button"><i class="fa fa-chevron-right"></i></button>',
         slidesToShow: 1,
         slidesToScroll: 1,
-    })
+    });
+
 });
