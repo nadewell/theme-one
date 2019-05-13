@@ -48,11 +48,11 @@
 .site-header {
     width: 100%;
     min-height: 60px;
+    padding: 0 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 15px;
     background-color: #ffffff;
     box-shadow: 0px 0px 5px 0px #aaaaaa;
 }
@@ -308,13 +308,10 @@ form#searchform input[type="text"]:focus{
     color: #ffffff;
 }
 
-@media (max-width: 1600px){
-    .site-header{
-        padding: 0 120px;
-    }
-}
 @media (max-width: 1200px){
-    
+    .site-header{
+        padding: 0 80px;
+    }
 }
 @media (max-width: 1024px){
     .site-header{
