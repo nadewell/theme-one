@@ -66,7 +66,7 @@ function themeone_widgets(){
         'after_title'       =>  '</h2>'
     ) );
     register_sidebar( array(
-        'name'              => __('Footer Widget Area', 'theme-one' ),
+        'name'              => __('Footer Widget Area 1', 'theme-one' ),
         'id'                =>  'footer-1',
         'description'       =>  'Footer Widget Area',
         'class'             =>  'widget-area',
@@ -76,7 +76,7 @@ function themeone_widgets(){
         'after_title'       =>  '</h2>'
     ) );
     register_sidebar( array(
-        'name'              => __('Footer Widget Area', 'theme-one' ),
+        'name'              => __('Footer Widget Area 2', 'theme-one' ),
         'id'                =>  'footer-2',
         'description'       =>  'Footer Widget Area',
         'class'             =>  'widget-area',
@@ -86,7 +86,7 @@ function themeone_widgets(){
         'after_title'       =>  '</h2>'
     ) );
     register_sidebar( array(
-        'name'              => __('Footer Widget Area', 'theme-one' ),
+        'name'              => __('Footer Widget Area 3', 'theme-one' ),
         'id'                =>  'footer-3',
         'description'       =>  'Footer Widget Area',
         'class'             =>  'widget-area',
@@ -96,7 +96,7 @@ function themeone_widgets(){
         'after_title'       =>  '</h2>'
     ) );
     register_sidebar( array(
-        'name'              => __('Footer Widget Area', 'theme-one' ),
+        'name'              => __('Footer Widget Area 4', 'theme-one' ),
         'id'                =>  'footer-4',
         'description'       =>  'Footer Widget Area',
         'class'             =>  'widget-area',

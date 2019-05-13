@@ -203,6 +203,10 @@ form#searchform input[type="text"]:focus{
     border-bottom: 1px solid #bbbbbb;
 }
 /* Blog CSS */
+article.post {
+    border: 1px solid #aaaaaa;
+    margin-bottom: 30px;
+}
 .post-thumbnail {
     position: relative;
     margin-bottom: 5px;
@@ -226,9 +230,11 @@ form#searchform input[type="text"]:focus{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    padding: 0 15px;
 }
 .post-title > h2 {
     margin-bottom: 10px;
+    padding: 0 15px;
 }
 .post-title > h2 > a {
     display: block;
@@ -250,6 +256,10 @@ form#searchform input[type="text"]:focus{
 .post-term > a {
     padding-right: 5px;
     padding-left: 5px;
+}
+.post-excerpt {
+    margin-bottom: 20px;
+    padding: 0 15px;
 }
 .post-excerpt > p {
     margin-bottom: 15px;
@@ -311,16 +321,7 @@ form#searchform input[type="text"]:focus{
     color: #ffffff;
 }
 
-h1::after,h2::after,
-h3::after,h4::after,
-h5::after, h6::after {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background: #1345ef;
-    margin: 10px auto 0 auto;
-}
+/* Card CSS */
 .card {
     padding: 20px 15px 30px 15px;
     margin-bottom: 25px;
@@ -328,7 +329,7 @@ h5::after, h6::after {
 .card-outline {
     border: 1px solid #aaaaaa;
 }
-
+/* Testimonial CSS */
 #testimonial-slider {
     padding: 0 30px 0 30px;
     position: relative;
