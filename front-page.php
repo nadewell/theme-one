@@ -35,6 +35,15 @@
                         </div>
                         </div>
                 </div>
+        </section>      
+        <section class="margin-top-50">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-lg-6 col-md-8 col-sm-12 margin-auto">
+                                        <h2>What we serve</h2>
+                                </div>
+                        </div>
+                </div>
         </section>
 
         <?php the_content(); ?>

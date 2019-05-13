@@ -5,8 +5,9 @@ function themeone_scritps(){
     wp_enqueue_style( 'default', get_stylesheet_uri() );
 
     wp_enqueue_style( 'themeone-theme', get_stylesheet_directory_uri().'/assets/css/theme.css' );
-    wp_enqueue_style( 'themeone-layout', get_stylesheet_directory_uri().'/assets/css/layout.css' );
     wp_enqueue_style( 'themeone-grid', get_stylesheet_directory_uri().'/assets/css/grid.css' );
+    wp_enqueue_style( 'themeone-elements', get_stylesheet_directory_uri().'/assets/css/elements.css' );
+    wp_enqueue_style( 'themeone-utils', get_stylesheet_directory_uri().'/assets/css/utils.css' );
     wp_enqueue_script( 'themeone', get_stylesheet_directory_uri().'/assets/js/theme.js', array('jquery'), '1.0.0' );
 
     wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri().'/assets/vendor/font-awesome/css/font-awesome.css' );

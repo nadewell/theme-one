@@ -7,7 +7,6 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class()?> >
-
 <header class="site-header" id="masthead">
     <div class="custom-logo">
         <?php if( has_custom_logo() ){ ?>    
@@ -28,6 +27,20 @@
     </nav>
 <div class="searchbox">
     <button type="button" class="search-btn" ><i class="fa fa-search"></i></button>
+    <div class="searchbox-modal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 margin-auto">
+                    <form role="search" method="get" id="searchform" class="searchform" action="<?php echo home_url(); ?>">
+                        <div>
+                            <input type="text" value="" name="s" id="s">
+                            <button type="submit" id="searchsubmit" value="Search"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <button class="hamburger" type="button">
     <span class="bar"></span>

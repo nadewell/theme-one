@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #1345ef;
+}
+a:hover,a:focus{
+    color: #0c2d99;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 24px;
+}
+ul{
+    list-style: disc;
+    margin-inline-end: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+}
+
+/* Form CSS */
+label {
+    display: block;
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+input[type="text"],input[type="email"],input[type="password"],input[type="number"],input[type="date"] {
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 20px;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+textarea{
+    width: 100%;
+    min-height: 120px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 60px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    resize: none;
+}
+
+input[type="submit"],input[type="reset"],
+button[type="submit"],button[type="reset"]{
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #1345ef;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px #000000;
+    transition: all 0.3s ease-out;
+}
+input[type="submit"]:hover,input[type="submit"]:focus,
+input[type="reset"]:hover,input[type="reset"]:focus,
+button[type="submit"]:hover,button[type="submit"]:focus,
+button[type="reset"]:hover,button[type="reset"]:focus {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #0c2d99;
+    box-shadow: none;
+}
+input[type="text"].form-control, input[type="email"].form-control,
+input[type="password"].form-control, input[type="number"].form-control,
+input[type="date"].form-control {
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    background: transparent;
+    color: #ffffff;
+}
+textarea.form-control{
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    background-color: transparent;
+    color: #ffffff;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #1345ef;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px #000000;
+    transition: all 0.3s ease-out;
+}
+.btn:hover,.btn:focus {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #0c2d99;
+    box-shadow: none;
+}
