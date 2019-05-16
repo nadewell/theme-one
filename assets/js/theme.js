@@ -12,6 +12,7 @@ jQuery(document).ready(function () {
         jQuery('.searchbox-modal').slideToggle();
     });
 
+    //testimonial slider
     jQuery('#testimonial-slider').slick({
         autoplay: true,
         autoplaySpeed: 3000,
@@ -22,4 +23,25 @@ jQuery(document).ready(function () {
         slidesToScroll: 1,
     });
 
+    //client slider
+    jQuery('#client-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+    });
+
+    // making column equal height
+    var max_height = 0;
+	var column = jQuery('.row.equal-height > div');
+	column.each(function(){
+		if(jQuery(this).height() > max_height){  
+            max_height = jQuery(this).height(); 
+            console.log(max_height);
+        }
+    });
+    column.height(max_height);
+    
 });
+

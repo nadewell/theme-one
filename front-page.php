@@ -35,155 +35,93 @@
                         </div>
                         </div>
                 </div>
-        </section>      
-        <section class="margin-top-20">
-                <div class="container">
-                        <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 margin-auto">
-                                        <h2 class="text-center-lg text-center-md text-center-sm">What we serve</h2>
-                                        <div class="row justify-content-center">
-                                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                                        <div class="card">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">Desgin</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <a href="#design" class="btn">Read More</a>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                                        <div class="card">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">Web App</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <a href="#webapp" class="btn">Read More</a>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                                        <div class="card">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">REST API</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <a href="#restapi" class="btn">Read More</a>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                                        <div class="card">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">SEO</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <a href="#seo" class="btn">Read More</a>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                                        <div class="card">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">Android App</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <a href="#androidapp" class="btn">Read More</a>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                </div>
-        </section>
-        <section class="margin-top-20 testimonials">
-                <div class="container">
-                        <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 margin-auto">   
-                                        <h2 class="text-center-lg text-center-md text-center-sm margin-bottom-40">What our clients says</h2>     
-                                        <div class="row justify-content-center">
-                                                <div class="col-lg-6 col-md-6 col-sm-12" id="testimonial-slider">
-                                                        <div class="card card-outline">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">John Doe</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <span>- CEO AMEC Digital Agency</span>
-                                                                </div>
-                                                        </div>
-                                                        <div class="card card-outline">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">John Doe</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <span>- CEO AMEC Digital Agency</span>
-                                                                </div>
-                                                        </div>
-                                                        <div class="card card-outline">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">John Doe</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <span>- CEO AMEC Digital Agency</span>
-                                                                </div>
-                                                        </div>
-                                                        <div class="card card-outline">
-                                                                <div class="card-header">
-                                                                        <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">John Doe</h4>
-                                                                </div>
-                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
-                                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis exercitationem eveniet amet, eos eaque eius quia qui sunt itaque.</p>
-                                                                </div>
-                                                                <div class="card-footer text-center-lg text-center-md text-center-sm">
-                                                                        <span>- CEO AMEC Digital Agency</span>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                </div>
-        </section>
+        </section>   
 
-        <section class="margin-top-20 about-us">
+        <section class="margin-top-30 margin-bottom-30">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-lg-8 col-md-8 col-sm-12 margin-auto text-center-lg text-center-md text-center-sm">
+                                        <h2 class="margin-bottom-10">Looking for someone who can help you to create your brand?</h2>
+                                        <p class="margin-bottom-20">Looking for someone who can help you to create your brand?</p>
+                                        <a class="btn btn-fancy btn-fancy-primary" href="<?php echo get_permalink( get_page_by_path( 'contact' ) ); ?>">Contact Now</a>
+                                </div>
+                        </div>
+                </div>
+        </section>   
+
+        <section class="margin-top-50">
                 <div class="container-fluid">
-                        <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm12">
-                                        <img src="" alt="">
+                        <div class="row equal-height">
+                                <div class="col-lg-6 col-md-6 col-sm-12 scroll-image" style="background-image:url('https://blueprintdevelopers.in/wp-content/uploads/2019/05/seo.jpeg')">
+                                        
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm12">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <hr class="separator separator-dark height-2 margin-right-auto">
+                                        <h2>What we Provide</h2>
+                                        <div class="row margin-top-20">
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                        <hr class="separator separator-dark height-1 margin-right-auto">
+                                                        <h4>Business Website</h4>
+                                                        <p>We are experienced in creating creative and elegant websites for any kind of business following best SEO standards.</p>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                        <hr class="separator separator-dark height-1 margin-right-auto">
+                                                        <h4>E-Commerce Website</h4>
+                                                        <p>We are experienced in creating creative and elegant websites for any kind of business following best SEO standards.</p>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                        <hr class="separator separator-dark height-1 margin-right-auto">
+                                                        <h4>Custom CMS</h4>
+                                                        <p>We are experienced in creating creative and elegant websites for any kind of business following best SEO standards.</p>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                        <hr class="separator separator-dark height-1 margin-right-auto">
+                                                        <h4>SEO & Digital Marketing</h4>
+                                                        <p>We are experienced in creating creative and elegant websites for any kind of business following best SEO standards.</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
 
+        <section class="margin-top-100 our-client">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 margin-auto margin-bottom-50">   
+                                        <div class="row justify-content-center">
+                                                <div class="col-lg-4 col-md-4 col-sm-12">
+                                                        <hr class="separator separator-primary height-2 margin-right-auto" >
+                                                        <h2 class="text-left-lg text-left-md text-left-sm margin-bottom-0 color-primary">Our Clients</h2>    
+                                                        <h4 class="text-left-lg text-left-md text-left-sm color-primary">worked for</h4> 
+                                                </div>
+                                                <div class="col-lg-8 col-md-8 col-sm-12" id="client-slider">
+                                                        <div class="client">
+                                                               <img src="https://blueprintdevelopers.in/wp-content/uploads/2019/05/company-4.jpg" alt="client">
+                                                        </div>
+                                                        <div class="client">
+                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
+                                                                        <img src="https://blueprintdevelopers.in/wp-content/uploads/2019/05/company-4.jpg" alt="client">
+                                                                </div>
+                                                        </div>
+                                                        <div class="client">
+                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
+                                                                        <img src="https://blueprintdevelopers.in/wp-content/uploads/2019/05/company-4.jpg" alt="client">
+                                                                </div>
+                                                        </div>
+                                                        <div class="client">
+                                                                <div class="card-body text-center-lg text-center-md text-center-sm">
+                                                                        <img src="https://blueprintdevelopers.in/wp-content/uploads/2019/05/company-4.jpg" alt="client">
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
                                 </div>
                         </div>
                 </div>
         </section>
         
-        <?php the_content(); ?>
+        <?php //the_content(); ?>
 <?php
         endwhile;
     endif;

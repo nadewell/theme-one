@@ -154,3 +154,31 @@ textarea.form-control{
     background-color: #0c2d99;
     box-shadow: none;
 }
+
+.btn-fancy {
+    border-radius: 0;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    box-shadow: none;
+}
+.btn-fancy.btn-fancy-primary{
+    color: #1345ef;
+    border-top: 1px solid #1345ef;
+    border-bottom: 1px solid #1345ef;
+}
+.btn-fancy.btn-fancy-primary:hover,
+.btn-fancy.btn-fancy-primary:focus{
+    color: #ffffff;
+    background: #0c2d99;
+}
+.btn-fancy.btn-fancy-dark{
+    color: #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+.btn-fancy.btn-fancy-dark:hover,
+.btn-fancy.btn-fancy-dark:focus{
+    color: #ffffff;
+    background: #000000;
+}
