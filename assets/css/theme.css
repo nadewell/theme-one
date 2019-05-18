@@ -190,7 +190,7 @@ form#searchform input[type="text"]:focus{
     display: block;
     width: 32px;
     height: 2px;
-    background-color: #ff5e00;
+    background-color: #1345ef;
 }
 .widget ul{
     list-style: none;
@@ -221,7 +221,7 @@ article.post {
     bottom: 30px;
     left: -15px;
     padding: 10px;
-    background-color: #ff5e00;
+    background-color: #1345ef;
     color: #ffffff;
     border-radius: 0px 10px 0px 10px;
 }
