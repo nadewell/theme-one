@@ -39,11 +39,14 @@ Template Name: Service Page
 </section>      
 <section class="margin-top-20">
         <div class="container">
-                <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 margin-auto">
-                                <h2 class="text-center-lg text-center-md text-center-sm">What we serve</h2>
+                <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                <hr class="separator separator-primary height-1 margin-right-auto">
+                                <h2>What we serve</h2>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12">
                                 <div class="row justify-content-center">
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
                                                 <div class="card">
                                                         <div class="card-header">
                                                                 <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">Desgin</h4>
@@ -56,7 +59,7 @@ Template Name: Service Page
                                                         </div>
                                                 </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
                                                 <div class="card">
                                                         <div class="card-header">
                                                                 <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">Web App</h4>
@@ -69,7 +72,7 @@ Template Name: Service Page
                                                         </div>
                                                 </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
                                                 <div class="card">
                                                         <div class="card-header">
                                                                 <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">REST API</h4>
@@ -82,7 +85,7 @@ Template Name: Service Page
                                                         </div>
                                                 </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
                                                 <div class="card">
                                                         <div class="card-header">
                                                                 <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">SEO</h4>
@@ -95,7 +98,7 @@ Template Name: Service Page
                                                         </div>
                                                 </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
                                                 <div class="card">
                                                         <div class="card-header">
                                                                 <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">Android App</h4>
@@ -115,11 +118,14 @@ Template Name: Service Page
 </section>
 <section class="margin-top-20 testimonials">
         <div class="container">
-                <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 margin-auto">   
-                                <h2 class="text-center-lg text-center-md text-center-sm margin-bottom-40">What our clients says</h2>     
+                <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                                <hr class="separator separator-primary height-1 margin-right-auto">   
+                                <h2>What our clients says</h2>     
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12"> 
                                 <div class="row justify-content-center">
-                                        <div class="col-lg-6 col-md-6 col-sm-12" id="testimonial-slider">
+                                        <div class="col-lg-12 col-md-12 col-sm-12" id="testimonial-slider">
                                                 <div class="card card-outline">
                                                         <div class="card-header">
                                                                 <h4 class="card-title text-center-lg text-center-md text-center-sm margin-bottom-30">John Doe</h4>
@@ -166,18 +172,6 @@ Template Name: Service Page
                                                 </div>
                                         </div>
                                 </div>
-                        </div>
-                </div>
-        </div>
-</section>
-<section class="margin-top-20 about-us">
-        <div class="container-fluid">
-                <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm12">
-                                <img src="" alt="">
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm12">
-
                         </div>
                 </div>
         </div>

@@ -10,9 +10,9 @@
 <header class="site-header" id="masthead">
     <div class="custom-logo">
         <?php if( has_custom_logo() ){ ?>    
-        <a href="<?php home_url(); ?>"><img src="<?php echo wp_get_attachment_image_src( get_theme_mod('custom_logo'), 'full' )[0]; ?>" alt="<?php bloginfo( 'name' ); ?>"></a>        
+        <a href="<?php echo home_url(); ?>"><img src="<?php echo wp_get_attachment_image_src( get_theme_mod('custom_logo'), 'full' )[0]; ?>" alt="<?php bloginfo( 'name' ); ?>"></a>        
         <?php }else{ ?>
-        <a href="#"><?php bloginfo( 'name' ); ?></a>
+        <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>
         <?php } ?>
     </div>
     <nav class="site-navbar">

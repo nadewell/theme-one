@@ -98,7 +98,12 @@
     height: 2px;
     background-color: #1345ef;
 }
-
+.custom-logo > a {
+    display: block;
+}
+.custom-logo > a >img {
+    display: block;
+}
 .searchbox {
     position: relative;
 }
